@@ -1,0 +1,26 @@
+.s-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+.image2-container{
+   margin-right: 60px;
+    width: 600px;
+    margin-top: 3rem;
+    overflow: hidden;
+    border-radius: 2rem 2rem 2rem 2rem;
+}
+.reg-title{
+    color: blue;
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+.btn-reg{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.login-now{
+    color: #8599cf;
+}

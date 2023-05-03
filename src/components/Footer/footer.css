@@ -1,0 +1,15 @@
+.f-container{
+    justify-content: space-between;
+    background: linear-gradient(to right,rgb(199, 199, 233), rgb(255, 255, 255));
+}
+.f-right{
+    margin-right: 50px;
+}
+.f-left{
+    gap: 1rem;
+}
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}

@@ -1,0 +1,78 @@
+ .l-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+  }
+  
+  .l-form {
+    height: 430px;
+    width: 420px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+  }
+  
+  .l-content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .l-title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 30px;
+    color: var(--blue);
+    font-weight: 600;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
+  .btn{
+    background: #0e4bf1;
+  }
+  .n{
+    color: black;
+  }
+  .form-group{
+    /* justify-content: space-between; */
+    
+  }
+  label{
+    font-size: 15px;
+    margin: 4px;
+   
+  }
+  .input-g{
+    
+    margin: 4px;
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-bottom: 2px solid rgb(222, 218, 243);
+    box-shadow: 2px 2px 2px rgb(227, 225, 247);;
+  }
+
+  .input-g:focus {
+    outline: none;
+    border: none;
+    
+  }
+  .forgot-password{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: rgb(85, 85, 241);
+  }
+.btnform{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.register{
+    color:rgb(85, 85, 241);
+}

@@ -1,0 +1,76 @@
+.grid-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    
+   
+}
+.card{  
+    margin: 1%;
+    flex-basis: 230px;
+    width: 20%;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    background-color: white;
+    
+}
+.i-container{
+
+width: 100%;
+max-height: 50%;
+}
+.i-container >img{
+width: 100%;
+height: 200px;
+    }
+.card-info{
+    display: -webkit-box;
+   -webkit-line-clamp: 6;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   text-overflow: ellipsis;
+  
+}
+.card-title{
+    margin-bottom: 2%;
+    margin-left: 5%;
+}
+.card-loc{
+    font-weight:lighter;
+   font-size: 15px;
+   
+}
+.bton {  
+
+    background:var(--blue-gradient) ;
+    border: none; /* Pas de bordure */
+    color: white; /* Couleur du texte */
+    padding: 12px 24px; /* Espacement entre le texte et les bords */
+    text-align: center; /* Alignement horizontal du texte */
+    text-decoration: none; /* Pas de soulignement du texte */
+    display: inline-block; /* Affichage en ligne */
+    font-size: 16px; /* Taille de police */
+    margin: 4px 2px; /* Marge autour du bouton */
+    cursor: pointer; /* Curseur au survol du bouton */
+    border-radius: 4px; /* Rayon de courbure des coins */
+  }
+  .bton:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+  }
+  /* Au survol du bouton */
+ .bton-container{
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+ }
+ .card-icon{
+    color: blue;
+    margin-left: 3%;
+    margin-right: 3%;
+    
+ }
+ .loc-pri{
+    margin-bottom: 4%;
+ }
